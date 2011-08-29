@@ -10,6 +10,8 @@
 
 @implementation EmbeddedWebkitViewController
 
+@synthesize button, textField, webView;
+
 - (void)didReceiveMemoryWarning
 {
     // Releases the view if it doesn't have a superview.
@@ -28,6 +30,12 @@
 }
 */
 
+- (void) runInBrowser:(id)sender
+{
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString: [textField text]]];
+    [webView loadRequest:request];
+}
+
 - (void)viewDidUnload
 {
     [super viewDidUnload];
@@ -38,7 +46,7 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return YES;
 }
 
 @end

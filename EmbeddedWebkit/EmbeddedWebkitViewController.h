@@ -10,4 +10,10 @@
 
 @interface EmbeddedWebkitViewController : UIViewController
 
+@property (assign) IBOutlet UIButton *button;
+@property (assign) IBOutlet UITextField *textField;
+@property (assign) IBOutlet UIWebView *webView;
+
+-(IBAction) runInBrowser: (id) sender;
+
 @end

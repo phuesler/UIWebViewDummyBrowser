@@ -23,6 +23,7 @@
 		03297223140BC7680046F1AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03297221140BC7680046F1AA /* InfoPlist.strings */; };
 		03297225140BC7680046F1AA /* EmbeddedWebkitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 03297224140BC7680046F1AA /* EmbeddedWebkitTests.h */; };
 		03297227140BC7680046F1AA /* EmbeddedWebkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03297226140BC7680046F1AA /* EmbeddedWebkitTests.m */; };
+		0329723A140BD1E90046F1AA /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03297238140BD1E90046F1AA /* MainWindow-iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +41,23 @@
 		032971F6140BC7680046F1AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		032971F8140BC7680046F1AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		032971FA140BC7680046F1AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		032971FE140BC7680046F1AA /* EmbeddedWebkit-Info.plist */ = {isa = PBXFileReference; path = "EmbeddedWebkit-Info.plist"; sourceTree = "<group>"; };
+		032971FE140BC7680046F1AA /* EmbeddedWebkit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmbeddedWebkit-Info.plist"; sourceTree = "<group>"; };
 		03297200140BC7680046F1AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03297202140BC7680046F1AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		03297204140BC7680046F1AA /* EmbeddedWebkit-Prefix.pch */ = {isa = PBXFileReference; path = "EmbeddedWebkit-Prefix.pch"; sourceTree = "<group>"; };
-		03297205140BC7680046F1AA /* EmbeddedWebkitAppDelegate.h */ = {isa = PBXFileReference; path = EmbeddedWebkitAppDelegate.h; sourceTree = "<group>"; };
+		03297204140BC7680046F1AA /* EmbeddedWebkit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmbeddedWebkit-Prefix.pch"; sourceTree = "<group>"; };
+		03297205140BC7680046F1AA /* EmbeddedWebkitAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbeddedWebkitAppDelegate.h; sourceTree = "<group>"; };
 		03297206140BC7680046F1AA /* EmbeddedWebkitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbeddedWebkitAppDelegate.m; sourceTree = "<group>"; };
 		03297209140BC7680046F1AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		0329720B140BC7680046F1AA /* EmbeddedWebkitViewController.h */ = {isa = PBXFileReference; path = EmbeddedWebkitViewController.h; sourceTree = "<group>"; };
+		0329720B140BC7680046F1AA /* EmbeddedWebkitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbeddedWebkitViewController.h; sourceTree = "<group>"; };
 		0329720C140BC7680046F1AA /* EmbeddedWebkitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbeddedWebkitViewController.m; sourceTree = "<group>"; };
 		0329720F140BC7680046F1AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EmbeddedWebkitViewController.xib; sourceTree = "<group>"; };
 		03297216140BC7680046F1AA /* EmbeddedWebkitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmbeddedWebkitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03297217140BC7680046F1AA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		03297220140BC7680046F1AA /* EmbeddedWebkitTests-Info.plist */ = {isa = PBXFileReference; path = "EmbeddedWebkitTests-Info.plist"; sourceTree = "<group>"; };
+		03297220140BC7680046F1AA /* EmbeddedWebkitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmbeddedWebkitTests-Info.plist"; sourceTree = "<group>"; };
 		03297222140BC7680046F1AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03297224140BC7680046F1AA /* EmbeddedWebkitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbeddedWebkitTests.h; sourceTree = "<group>"; };
 		03297226140BC7680046F1AA /* EmbeddedWebkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbeddedWebkitTests.m; sourceTree = "<group>"; };
+		03297239140BD1E90046F1AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		032971FC140BC7680046F1AA /* EmbeddedWebkit */ = {
 			isa = PBXGroup;
 			children = (
+				03297237140BD1E70046F1AA /* iPad */,
 				03297205140BC7680046F1AA /* EmbeddedWebkitAppDelegate.h */,
 				03297206140BC7680046F1AA /* EmbeddedWebkitAppDelegate.m */,
 				03297208140BC7680046F1AA /* MainWindow.xib */,
@@ -155,6 +158,14 @@
 				03297221140BC7680046F1AA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03297237140BD1E70046F1AA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				03297238140BD1E90046F1AA /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +238,7 @@
 				03297201140BC7680046F1AA /* InfoPlist.strings in Resources */,
 				0329720A140BC7680046F1AA /* MainWindow.xib in Resources */,
 				03297210140BC7680046F1AA /* EmbeddedWebkitViewController.xib in Resources */,
+				0329723A140BD1E90046F1AA /* MainWindow-iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +331,14 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		03297238140BD1E90046F1AA /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03297239140BD1E90046F1AA /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -371,7 +391,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EmbeddedWebkit/EmbeddedWebkit-Prefix.pch";
 				INFOPLIST_FILE = "EmbeddedWebkit/EmbeddedWebkit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -382,7 +404,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EmbeddedWebkit/EmbeddedWebkit-Prefix.pch";
 				INFOPLIST_FILE = "EmbeddedWebkit/EmbeddedWebkit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
