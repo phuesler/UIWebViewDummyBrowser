@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032971F7140BC7680046F1AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032971F6140BC7680046F1AA /* UIKit.framework */; };
+		032971F9140BC7680046F1AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032971F8140BC7680046F1AA /* Foundation.framework */; };
+		032971FB140BC7680046F1AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032971FA140BC7680046F1AA /* CoreGraphics.framework */; };
+		03297201140BC7680046F1AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 032971FF140BC7680046F1AA /* InfoPlist.strings */; };
+		03297203140BC7680046F1AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03297202140BC7680046F1AA /* main.m */; };
+		03297207140BC7680046F1AA /* EmbeddedWebkitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03297206140BC7680046F1AA /* EmbeddedWebkitAppDelegate.m */; };
+		0329720A140BC7680046F1AA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03297208140BC7680046F1AA /* MainWindow.xib */; };
+		0329720D140BC7680046F1AA /* EmbeddedWebkitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0329720C140BC7680046F1AA /* EmbeddedWebkitViewController.m */; };
+		03297210140BC7680046F1AA /* EmbeddedWebkitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0329720E140BC7680046F1AA /* EmbeddedWebkitViewController.xib */; };
+		03297218140BC7680046F1AA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03297217140BC7680046F1AA /* SenTestingKit.framework */; };
+		03297219140BC7680046F1AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032971F6140BC7680046F1AA /* UIKit.framework */; };
+		0329721A140BC7680046F1AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032971F8140BC7680046F1AA /* Foundation.framework */; };
+		0329721B140BC7680046F1AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032971FA140BC7680046F1AA /* CoreGraphics.framework */; };
+		03297223140BC7680046F1AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03297221140BC7680046F1AA /* InfoPlist.strings */; };
+		03297225140BC7680046F1AA /* EmbeddedWebkitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 03297224140BC7680046F1AA /* EmbeddedWebkitTests.h */; };
+		03297227140BC7680046F1AA /* EmbeddedWebkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03297226140BC7680046F1AA /* EmbeddedWebkitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0329721C140BC7680046F1AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 032971E9140BC7680046F1AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032971F1140BC7680046F1AA;
+			remoteInfo = EmbeddedWebkit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032971F2140BC7680046F1AA /* EmbeddedWebkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmbeddedWebkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		032971F6140BC7680046F1AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		032971F8140BC7680046F1AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		032971FA140BC7680046F1AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		032971FE140BC7680046F1AA /* EmbeddedWebkit-Info.plist */ = {isa = PBXFileReference; path = "EmbeddedWebkit-Info.plist"; sourceTree = "<group>"; };
+		03297200140BC7680046F1AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03297202140BC7680046F1AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03297204140BC7680046F1AA /* EmbeddedWebkit-Prefix.pch */ = {isa = PBXFileReference; path = "EmbeddedWebkit-Prefix.pch"; sourceTree = "<group>"; };
+		03297205140BC7680046F1AA /* EmbeddedWebkitAppDelegate.h */ = {isa = PBXFileReference; path = EmbeddedWebkitAppDelegate.h; sourceTree = "<group>"; };
+		03297206140BC7680046F1AA /* EmbeddedWebkitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbeddedWebkitAppDelegate.m; sourceTree = "<group>"; };
+		03297209140BC7680046F1AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0329720B140BC7680046F1AA /* EmbeddedWebkitViewController.h */ = {isa = PBXFileReference; path = EmbeddedWebkitViewController.h; sourceTree = "<group>"; };
+		0329720C140BC7680046F1AA /* EmbeddedWebkitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbeddedWebkitViewController.m; sourceTree = "<group>"; };
+		0329720F140BC7680046F1AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EmbeddedWebkitViewController.xib; sourceTree = "<group>"; };
+		03297216140BC7680046F1AA /* EmbeddedWebkitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmbeddedWebkitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03297217140BC7680046F1AA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		03297220140BC7680046F1AA /* EmbeddedWebkitTests-Info.plist */ = {isa = PBXFileReference; path = "EmbeddedWebkitTests-Info.plist"; sourceTree = "<group>"; };
+		03297222140BC7680046F1AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03297224140BC7680046F1AA /* EmbeddedWebkitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbeddedWebkitTests.h; sourceTree = "<group>"; };
+		03297226140BC7680046F1AA /* EmbeddedWebkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbeddedWebkitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		032971EF140BC7680046F1AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032971F7140BC7680046F1AA /* UIKit.framework in Frameworks */,
+				032971F9140BC7680046F1AA /* Foundation.framework in Frameworks */,
+				032971FB140BC7680046F1AA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03297212140BC7680046F1AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03297218140BC7680046F1AA /* SenTestingKit.framework in Frameworks */,
+				03297219140BC7680046F1AA /* UIKit.framework in Frameworks */,
+				0329721A140BC7680046F1AA /* Foundation.framework in Frameworks */,
+				0329721B140BC7680046F1AA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032971E7140BC7680046F1AA = {
+			isa = PBXGroup;
+			children = (
+				032971FC140BC7680046F1AA /* EmbeddedWebkit */,
+				0329721E140BC7680046F1AA /* EmbeddedWebkitTests */,
+				032971F5140BC7680046F1AA /* Frameworks */,
+				032971F3140BC7680046F1AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		032971F3140BC7680046F1AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				032971F2140BC7680046F1AA /* EmbeddedWebkit.app */,
+				03297216140BC7680046F1AA /* EmbeddedWebkitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		032971F5140BC7680046F1AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				032971F6140BC7680046F1AA /* UIKit.framework */,
+				032971F8140BC7680046F1AA /* Foundation.framework */,
+				032971FA140BC7680046F1AA /* CoreGraphics.framework */,
+				03297217140BC7680046F1AA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		032971FC140BC7680046F1AA /* EmbeddedWebkit */ = {
+			isa = PBXGroup;
+			children = (
+				03297205140BC7680046F1AA /* EmbeddedWebkitAppDelegate.h */,
+				03297206140BC7680046F1AA /* EmbeddedWebkitAppDelegate.m */,
+				03297208140BC7680046F1AA /* MainWindow.xib */,
+				0329720B140BC7680046F1AA /* EmbeddedWebkitViewController.h */,
+				0329720C140BC7680046F1AA /* EmbeddedWebkitViewController.m */,
+				0329720E140BC7680046F1AA /* EmbeddedWebkitViewController.xib */,
+				032971FD140BC7680046F1AA /* Supporting Files */,
+			);
+			path = EmbeddedWebkit;
+			sourceTree = "<group>";
+		};
+		032971FD140BC7680046F1AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				032971FE140BC7680046F1AA /* EmbeddedWebkit-Info.plist */,
+				032971FF140BC7680046F1AA /* InfoPlist.strings */,
+				03297202140BC7680046F1AA /* main.m */,
+				03297204140BC7680046F1AA /* EmbeddedWebkit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0329721E140BC7680046F1AA /* EmbeddedWebkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				03297224140BC7680046F1AA /* EmbeddedWebkitTests.h */,
+				03297226140BC7680046F1AA /* EmbeddedWebkitTests.m */,
+				0329721F140BC7680046F1AA /* Supporting Files */,
+			);
+			path = EmbeddedWebkitTests;
+			sourceTree = "<group>";
+		};
+		0329721F140BC7680046F1AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03297220140BC7680046F1AA /* EmbeddedWebkitTests-Info.plist */,
+				03297221140BC7680046F1AA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		032971F1140BC7680046F1AA /* EmbeddedWebkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0329722A140BC7680046F1AA /* Build configuration list for PBXNativeTarget "EmbeddedWebkit" */;
+			buildPhases = (
+				032971EE140BC7680046F1AA /* Sources */,
+				032971EF140BC7680046F1AA /* Frameworks */,
+				032971F0140BC7680046F1AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmbeddedWebkit;
+			productName = EmbeddedWebkit;
+			productReference = 032971F2140BC7680046F1AA /* EmbeddedWebkit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03297215140BC7680046F1AA /* EmbeddedWebkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0329722D140BC7680046F1AA /* Build configuration list for PBXNativeTarget "EmbeddedWebkitTests" */;
+			buildPhases = (
+				03297211140BC7680046F1AA /* Sources */,
+				03297212140BC7680046F1AA /* Frameworks */,
+				03297213140BC7680046F1AA /* Resources */,
+				03297214140BC7680046F1AA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0329721D140BC7680046F1AA /* PBXTargetDependency */,
+			);
+			name = EmbeddedWebkitTests;
+			productName = EmbeddedWebkitTests;
+			productReference = 03297216140BC7680046F1AA /* EmbeddedWebkitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		032971E9140BC7680046F1AA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 032971EC140BC7680046F1AA /* Build configuration list for PBXProject "EmbeddedWebkit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 032971E7140BC7680046F1AA;
+			productRefGroup = 032971F3140BC7680046F1AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				032971F1140BC7680046F1AA /* EmbeddedWebkit */,
+				03297215140BC7680046F1AA /* EmbeddedWebkitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		032971F0140BC7680046F1AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03297201140BC7680046F1AA /* InfoPlist.strings in Resources */,
+				0329720A140BC7680046F1AA /* MainWindow.xib in Resources */,
+				03297210140BC7680046F1AA /* EmbeddedWebkitViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03297213140BC7680046F1AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03297223140BC7680046F1AA /* InfoPlist.strings in Resources */,
+				03297225140BC7680046F1AA /* EmbeddedWebkitTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03297214140BC7680046F1AA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		032971EE140BC7680046F1AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03297203140BC7680046F1AA /* main.m in Sources */,
+				03297207140BC7680046F1AA /* EmbeddedWebkitAppDelegate.m in Sources */,
+				0329720D140BC7680046F1AA /* EmbeddedWebkitViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03297211140BC7680046F1AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03297227140BC7680046F1AA /* EmbeddedWebkitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0329721D140BC7680046F1AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 032971F1140BC7680046F1AA /* EmbeddedWebkit */;
+			targetProxy = 0329721C140BC7680046F1AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		032971FF140BC7680046F1AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03297200140BC7680046F1AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03297208140BC7680046F1AA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03297209140BC7680046F1AA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0329720E140BC7680046F1AA /* EmbeddedWebkitViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0329720F140BC7680046F1AA /* en */,
+			);
+			name = EmbeddedWebkitViewController.xib;
+			sourceTree = "<group>";
+		};
+		03297221140BC7680046F1AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03297222140BC7680046F1AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03297228140BC7680046F1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03297229140BC7680046F1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0329722B140BC7680046F1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmbeddedWebkit/EmbeddedWebkit-Prefix.pch";
+				INFOPLIST_FILE = "EmbeddedWebkit/EmbeddedWebkit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0329722C140BC7680046F1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmbeddedWebkit/EmbeddedWebkit-Prefix.pch";
+				INFOPLIST_FILE = "EmbeddedWebkit/EmbeddedWebkit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0329722E140BC7680046F1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EmbeddedWebkit.app/EmbeddedWebkit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmbeddedWebkit/EmbeddedWebkit-Prefix.pch";
+				INFOPLIST_FILE = "EmbeddedWebkitTests/EmbeddedWebkitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0329722F140BC7680046F1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EmbeddedWebkit.app/EmbeddedWebkit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmbeddedWebkit/EmbeddedWebkit-Prefix.pch";
+				INFOPLIST_FILE = "EmbeddedWebkitTests/EmbeddedWebkitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032971EC140BC7680046F1AA /* Build configuration list for PBXProject "EmbeddedWebkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03297228140BC7680046F1AA /* Debug */,
+				03297229140BC7680046F1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0329722A140BC7680046F1AA /* Build configuration list for PBXNativeTarget "EmbeddedWebkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0329722B140BC7680046F1AA /* Debug */,
+				0329722C140BC7680046F1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0329722D140BC7680046F1AA /* Build configuration list for PBXNativeTarget "EmbeddedWebkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0329722E140BC7680046F1AA /* Debug */,
+				0329722F140BC7680046F1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 032971E9140BC7680046F1AA /* Project object */;
+}
